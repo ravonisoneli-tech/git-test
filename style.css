@@ -1,0 +1,81 @@
+body {
+    background-color: #1a1a2e;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #7ee787;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 12px;
+}
+
+.carte {
+    background-color: #16213e;
+    border: 1px solid #7ee787;
+    border-radius: 12px;
+    padding: 50px 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: #7ee787;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sous-titre {
+    font-style: italic;
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+.reseaux {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.reseaux a {
+    color: #7ee787;
+    font-size: 1.8rem;
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.reseaux a:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+.bouton-cv {
+    display: inline-block;
+    background-color: #7ee787;
+    color: #1a1a2e;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: opacity 0.2s;
+}
+
+.bouton-cv:hover {
+    opacity: 0.85;
+    text-decoration: none;
+}
+
